@@ -3,9 +3,10 @@
 	height: 20px;
 	display: block;
 	float: left;
-	background: url("file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/logo.jpg") top left no-repeat;
+	background: url("../images/logo.jpg") top left no-repeat;
 	background-size: 61px 46.5px;
 	/*C:\Users\Sherin Mathew\Documents\GitHub\sherin1.github.io\unit_3\images*/
+	/*file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/logo.jpg*/
 }
 #slogan{
 font-style: italic;
@@ -17,7 +18,7 @@ font-size: 26px;
 	height: 20px;
 	display: absolute;
 	float: left;
-	background: url("file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/Search_Dark.png") top right no-repeat;
+	background: url("../images/Search_Dark.png") top right no-repeat;
 	background-size: 61px 46.5px;	
 	}
 #shopcart{
@@ -25,7 +26,7 @@ font-size: 26px;
 	height: 20px;
 	display: block;
 	float: left;
-	background: url("file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/160_F_72368819_uhR4GuMY25ivB0KeDK7ry58r2hRH377n.jpg") top left no-repeat;
+	background: url("../images/160_F_72368819_uhR4GuMY25ivB0KeDK7ry58r2hRH377n.jpg") top left no-repeat;
 	background-size: 61px 46.5px;
 	}
 ul {
