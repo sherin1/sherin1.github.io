@@ -71,6 +71,7 @@ img.images1{
 }	
 .li2{
 	color: white;
+	list-style-type: square;
 }
 div.desc {
     padding: 15px;
