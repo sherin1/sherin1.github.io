@@ -38,8 +38,6 @@ section   {
 	float: left;
 	background: url("../images/logo.jpg") top left no-repeat;
 	background-size: 61px 46.5px;
-	/*C:\Users\Sherin Mathew\Documents\GitHub\sherin1.github.io\unit_3\images*/
-	/*file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/logo.jpg*/
 }
 #slogan{
 font-style: italic;
@@ -61,7 +59,7 @@ font-size: 26px;
 	float: left;
 	background: url("../images/160_F_72368819_uhR4GuMY25ivB0KeDK7ry58r2hRH377n.jpg") top left no-repeat;
 	background-size: 61px 46.5px;
-	}
+}
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -103,6 +101,7 @@ img.images1{
 }	
 .li2{
 	color: white;
+	list-style-type: square;
 }
 div.desc {
     padding: 15px;
