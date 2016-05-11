@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Share);
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav  {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside  {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+article  {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer  {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+section   {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#logo{
+	width: 30px;
+	height: 20px;
+	display: block;
+	float: left;
+	background: url("../images/logo.jpg") top left no-repeat;
+	background-size: 61px 46.5px;
+	/*C:\Users\Sherin Mathew\Documents\GitHub\sherin1.github.io\unit_3\images*/
+	/*file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/logo.jpg*/
+}
+#slogan{
+font-style: italic;
+text-decoration: overline;
+font-size: 26px;
+}
+#search{
+	width: 30px;
+	height: 20px;
+	display: absolute;
+	float: left;
+	background: url("../images/Search_Dark.png") top right no-repeat;
+	background-size: 61px 46.5px;	
+	}
+#shopcart{
+	width: 30px;
+	height: 20px;
+	display: block;
+	float: left;
+	background: url("../images/160_F_72368819_uhR4GuMY25ivB0KeDK7ry58r2hRH377n.jpg") top left no-repeat;
+	background-size: 61px 46.5px;
+	}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+li.menu1 {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #FF8A60;
+}
+body{
+	background-color: #333;
+}
+.liimages1{	
+	float: left;	
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+img.images1{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}	
+.li2{
+	color: white;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+	clear:left;
+}
+p{
+	clear:left;
+	border:1px transparent;
+	font-size: 100%;
+	text-align: center;
+	background-color: #FF8A60;
+	}
+footer{
+clear:left;
+text-align: center;
+}
+.newfont{
+	font-family: 'Share', cursive;
+}
