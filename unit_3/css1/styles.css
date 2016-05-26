@@ -33,15 +33,10 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
-	padding-left: 0px;
 }
 li.menu1 {
     float: left;
     border-right:1px solid #bbb;
-}
-li.menu2{
-	float: left;
-	
 }
 li:last-child {
     border-right: none;
@@ -62,20 +57,24 @@ li a:hover:not(.active) {
 body{
 	background-color: #333;
 }
-.liimages1{
-    width: 50%;
-    display: inline-block;
+.liimages1{	
+	float: left;	
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 img.images1{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-}
+}	
 .li2{
 	color: white;
 }
 div.desc {
-  text-align: center;
+    padding: 15px;
+    text-align: center;
+	clear:left;
 }
 p{
 	clear:left;

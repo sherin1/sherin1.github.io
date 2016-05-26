@@ -1,3 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Share);
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav  {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside  {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+article  {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer  {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+section   {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 #logo{
 	width: 30px;
 	height: 20px;
@@ -33,14 +65,14 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
-	padding-left: 0px;
+	padding-left: 0px;/*dont change*/
 }
 li.menu1 {
     float: left;
     border-right:1px solid #bbb;
 }
 li.menu2{
-	float: left;
+	float: left;/*dont change*/
 	
 }
 li:last-child {
@@ -62,6 +94,41 @@ li a:hover:not(.active) {
 body{
 	background-color: #333;
 }
+
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
 .liimages1{
     width: 50%;
     display: inline-block;
@@ -87,4 +154,7 @@ p{
 footer{
 clear:left;
 text-align: center;
+}
+.newfont{
+	font-family: 'Share', cursive;
 }
