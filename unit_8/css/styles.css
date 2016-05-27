@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Share);
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav  {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside  {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+article  {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer  {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+section   {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 1256px) and (max-width: 293px) {
+  .nav {
+    width:100%;
+  }
+  li.menu1 {
+    width:100%;
+    float:none;
+  }
+  li.menu2 {
+    width:100%;
+    float:none;
+  }
+  
+  .li2 {
+  font-size: 1.4em;
+    line-height: 1.8em;
+  }
+}
+
+
+
+#logo{
+	width: 30px;
+	height: 20px;
+	display: block;
+	float: left;
+	background: url("../images/logo.jpg") top left no-repeat;
+	background-size: 61px 46.5px;
+	/*C:\Users\Sherin Mathew\Documents\GitHub\sherin1.github.io\unit_3\images*/
+	/*file:///C:/Users/Sherin%20Mathew/Documents/GitHub/sherin1.github.io/unit_3/images/logo.jpg*/
+}
+#slogan{
+font-style: italic;
+text-decoration: overline;
+font-size: 26px;
+}
+#search{
+	width: 30px;
+	height: 20px;
+	display: absolute;
+	float: left;
+	background: url("../images/Search_Dark.png") top right no-repeat;
+	background-size: 61px 46.5px;	
+	}
+#shopcart{
+	width: 30px;
+	height: 20px;
+	display: block;
+	float: left;
+	background: url("../images/160_F_72368819_uhR4GuMY25ivB0KeDK7ry58r2hRH377n.jpg") top left no-repeat;
+	background-size: 61px 46.5px;
+	}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+	padding-left: 0px;/*dont change*/
+}
+li.menu1 {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li.menu2{
+	float: left;/*dont change*/
+	
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #FF8A60;
+}
+body{
+	background-color: #333;
+}
+
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.liimages1{
+    width: 50%;
+    display: inline-block;
+}
+img.images1{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.li2{
+	color: white;
+}
+div.desc {
+  text-align: center;
+}
+p{
+	clear:left;
+	border:1px transparent;
+	font-size: 100%;
+	text-align: center;
+	background-color: #FF8A60;
+	}
+footer{
+clear:left;
+text-align: center;
+}
+.newfont{
+	font-family: 'Share', cursive;
+}
